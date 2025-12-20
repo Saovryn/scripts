@@ -6,14 +6,22 @@ local games = {
 }
 
 local gameInfo = games[game.GameId]
-if not gameInfo then return end
 
-pcall(function()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "TWICE Loader",
-        Text = gameInfo.Name .. "\nMade By: Yuki",
-        Duration = 3
-    })
-end)
-
-loadstring(game:HttpGet(gameInfo.ScriptURL))()
+if gameInfo then
+    pcall(function()
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "TWICE Loader",
+            Text = gameInfo.Name .. "\nMade By: Yuki",
+            Duration = 2
+        })
+    end)
+    loadstring(game:HttpGet(gameInfo.ScriptURL))()
+else
+    pcall(function()
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "TWICE Loader",
+            Text = "No available script for this game",
+            Duration = 2
+        })
+    end)
+end
