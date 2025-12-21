@@ -1,27 +1,23 @@
 local games = {
     [7798947148] = {
         Name = "Anime Final Quest",
-        ScriptURL = "https://pastefy.app/xNFTiXha/raw"
+        ScriptURL = "https://pastefy.app/DCyJkNVA/raw"
+    },
+    [7671049560] = {
+        Name = "The Forge",
+        ScriptURL = "https://lunor.dev/loader"
     },
 }
 
 local gameInfo = games[game.GameId]
+if not gameInfo then return end
 
-if gameInfo then
-    pcall(function()
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "TWICE Loader",
-            Text = gameInfo.Name .. "\nMade By: Yuki",
-            Duration = 2
-        })
-    end)
-    loadstring(game:HttpGet(gameInfo.ScriptURL))()
-else
-    pcall(function()
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "TWICE Loader",
-            Text = "No available script for this game",
-            Duration = 2
-        })
-    end)
-end
+pcall(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "TWICE Loader",
+        Text = gameInfo.Name .. "\nMade By: Yuki",
+        Duration = 3
+    })
+end)
+
+loadstring(game:HttpGet(gameInfo.ScriptURL))()
