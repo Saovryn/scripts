@@ -15,8 +15,8 @@ if not gameInfo then return end
 pcall(function()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "TWICE Loader",
-        Text = gameInfo.Name .. "\nMade by: Tiyo, Won, Lich",
-        Duration = 3
+        Text = gameInfo.Name .. "\nBy: Nayeon",
+        Duration = 2
     })
 end)
 
