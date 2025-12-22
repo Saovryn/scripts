@@ -5,7 +5,11 @@ local games = {
     },
     [7671049560] = {
         Name = "The Forge",
-        ScriptURL = "https://raw.githubusercontent.com/kaisenlmao/loader/main/chiyo.lua"
+        ScriptURL = "https://lunor.dev/loader"
+    },
+    [8220767002] = {
+        Name = "Bee Garden",
+        ScriptURL = "https://pastefy.app/y2roxqAD/raw"
     },
 }
 
@@ -16,7 +20,7 @@ pcall(function()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "TWICE Loader",
         Text = gameInfo.Name .. "\nBy: Nayeon",
-        Duration = 2
+        Duration = 3
     })
 end)
 
