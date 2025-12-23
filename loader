@@ -15,6 +15,10 @@ local games = {
         Name = "Blind Shot",
         ScriptURL = "https://pastefy.app/p4FbXTbk/raw"
     },
+    [2239430935] = {
+        Name = "Blair",
+        ScriptURL = "https://protected-roblox-scripts.onrender.com/6fe4916f6bff02e29f3f7480e1a864aa"
+    },
 }
 
 local gameInfo = games[game.GameId]
