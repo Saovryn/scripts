@@ -5,7 +5,7 @@ local games = {
     },
     [7671049560] = {
         Name = "The Forge",
-        ScriptURL = "https://lunor.dev/loader"
+        ScriptURL = "https://raw.githubusercontent.com/kaisenlmao/loader/main/chiyo.lua"
     },
     [8220767002] = {
         Name = "Bee Garden",
@@ -18,6 +18,10 @@ local games = {
     [2239430935] = {
         Name = "Blair",
         ScriptURL = "https://protected-roblox-scripts.onrender.com/6fe4916f6bff02e29f3f7480e1a864aa"
+    },
+    [9091133975] = {
+        Name = "Catch And Tame!",
+        ScriptURL = "https://pastefy.app/6VIc58ns/raw"
     },
 }
 
