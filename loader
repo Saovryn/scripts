@@ -5,7 +5,7 @@ local games = {
     },
     [7671049560] = {
         Name = "The Forge",
-        ScriptURL = "https://lunor.dev/loader"
+        ScriptURL = "https://raw.githubusercontent.com/AnonymoDGH/scripts/main/forgex.lua"
     },
     [8220767002] = {
         Name = "Bee Garden",
