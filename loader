@@ -5,7 +5,7 @@ local games = {
     },
     [7671049560] = {
         Name = "The Forge",
-        ScriptURL = "https://raw.githubusercontent.com/kaisenlmao/loader/main/chiyo.lua"
+        ScriptURL = "https://lunor.dev/loader"
     },
     [8220767002] = {
         Name = "Bee Garden",
@@ -22,6 +22,10 @@ local games = {
     [9091133975] = {
         Name = "Catch And Tame!",
         ScriptURL = "https://pastefy.app/6VIc58ns/raw"
+    },
+    [6170143659] = {
+        Name = "Demonology",
+        ScriptURL = "https://pastefy.app/RlXZj9tt/raw"
     },
 }
 
