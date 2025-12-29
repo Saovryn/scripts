@@ -1,7 +1,7 @@
 local games = {
     [7798947148] = {
         Name = "Anime Final Quest",
-        ScriptURL = "https://pastefy.app/DCyJkNVA/raw"
+        ScriptURL = "https://pastefy.app/Z0jOvFlO/raw"
     },
     [7671049560] = {
         Name = "The Forge",
