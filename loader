@@ -1,11 +1,11 @@
 local games = {
     [7798947148] = {
         Name = "Anime Final Quest",
-        ScriptURL = "https://pastefy.app/Z0jOvFlO/raw"
+        ScriptURL = "https://pastefy.app/DCyJkNVA/raw"
     },
     [7671049560] = {
         Name = "The Forge",
-        ScriptURL = "https://raw.githubusercontent.com/AnonymoDGH/scripts/main/forgex.lua"
+        ScriptURL = "https://lunor.dev/loader"
     },
     [8220767002] = {
         Name = "Bee Garden",
@@ -26,6 +26,10 @@ local games = {
     [6170143659] = {
         Name = "Demonology",
         ScriptURL = "https://pastefy.app/RlXZj9tt/raw"
+    },
+    [3916548970] = {
+        Name = "Fireworks Playground",
+        ScriptURL = "https://pastefy.app/ui78AXLJ/raw"
     },
 }
 
