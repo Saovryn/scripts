@@ -33,7 +33,7 @@ local games = {
     },
     [9266873836] = {
         Name = "Anime Fighting Simulator: Endless",
-        ScriptURL = "https://pastefy.app/6By3wpKn/raw"
+        ScriptURL = "1https://pastefy.app/6By3wpKn/raw"
     },
 }
 
