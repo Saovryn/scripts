@@ -31,6 +31,10 @@ local games = {
         Name = "Fireworks Playground",
         ScriptURL = "https://pastefy.app/ui78AXLJ/raw"
     },
+    [9266873836] = {
+        Name = "Anime Fighting Simulator: Endless",
+        ScriptURL = "https://pastefy.app/6By3wpKn/raw"
+    },
 }
 
 local gameInfo = games[game.GameId]
